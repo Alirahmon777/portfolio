@@ -1,0 +1,30 @@
+.hero {
+  position: relative;
+
+  &__content {
+    width: 60%;
+  }
+
+  &__title {
+    color: #76c2af;
+    font-size: 60px;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 15px 0 15px 30px;
+    font-size: 24px;
+    color: #76c2af !important;
+    background-color: #FAFC6D;
+    border-radius: 24px;
+  }
+
+  &__arrow {
+    left: 0;
+    top: 30%;
+    height: 100%;
+    vertical-align: middle;
+  }
+}

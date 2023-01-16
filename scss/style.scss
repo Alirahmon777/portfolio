@@ -1,0 +1,12 @@
+@import "./mixins";
+@import "./variables";
+@import "./fonts";
+@import "./normalize";
+@import "./global";
+
+// section
+
+@import "./blocks/header";
+@import "./blocks/hero";
+@import "./blocks/about";
+@import "./blocks/projects";
